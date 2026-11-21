@@ -1,0 +1,1 @@
+pyinstaller --noconfirm --onefile --windowed --icon=icon.ico --add-data "icon.ico;." --hidden-import "sklearn.utils._weight_vector" --hidden-import "sklearn.neighbors._quad_tree" --hidden-import "sklearn.tree._utils" DNS_Detector.py
